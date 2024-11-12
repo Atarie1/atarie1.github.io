@@ -8,12 +8,12 @@ h1 {
 h2 {
 	font-style: normal;
 	font-family: "Arial";
-	font-size: 24px;
+	font-size: auto;
 }
 
 p {
 	text-justify: auto;
-	font-size: 16px;
+	font-size: auto;
 	font-family: "Arial";
 }
 body {
