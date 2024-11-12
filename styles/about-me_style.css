@@ -1,38 +1,37 @@
 @charset "utf-8";
+
 h1 {
 	font-style: normal;	
 	font-family: "Arial";
 	font-size: 72px;
 }
-
-h2 {
-	font-style: normal;
-	font-family: "Arial";
-	font-size: 24px;
-}
-
 p {
 	text-justify: auto;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: "Arial";
 }
 body {
-	background-image: url("../assets/index/background.webp");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
+	background-color: aliceblue;
+	margin: 20px auto;
+	padding: 10px;
 }
 
-.center_section {
-	transform: translate(0, 50%);
-	margin: auto;
-	text-align: center;
-	border-radius: 10px 50px;
-	background-color: rgba(228,223,223,.8);
-	width: 60%;
-	height: auto;
-	padding: 20px;
+.first_container {
+  	display:flex;
+	margin: 0 auto;
+  	width: 60%;
+  	padding: 20px;
+	column-gap: 20px
+}
+
+.first_picture {
+	height: 400px;
+	width: auto;
+	border-radius: 20px;
+}
+
+.right-content {
+	padding-right: 40%;
 }
 
 /* Add a black background color to the top navigation */
