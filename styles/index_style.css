@@ -22,8 +22,7 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	margin: 20px auto;
-
+	margin: 25px 0px 0px 0px;
 }
 
 .center_section {
@@ -35,4 +34,6 @@ body {
 	width: 60%;
 	height: auto;
 	padding: 20px;
+}
+@media (max-width: 1920px){
 }

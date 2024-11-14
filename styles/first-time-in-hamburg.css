@@ -1,0 +1,90 @@
+@charset "utf-8";
+h1 {
+	font-style: normal;	
+	font-family: "Arial";
+	font-size: 72px;
+}
+
+h2 {
+	font-style: normal;
+	font-family: "Arial";
+	font-size: 48px;
+}
+
+p {
+	text-justify: auto;
+	font-size: 20px;
+	font-family: "Arial";
+}
+body {
+
+	background: url("../assets/first-hamburg/jen_and_me.jpg");
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-position: 0 -50px;
+	margin: 25px 0px 0px 0px;
+}
+
+.first_section {
+	padding-left: 75px;
+	padding-top: 250px;
+	padding-bottom: 120px;
+}
+
+.second_section {
+	background-color: whitesmoke;
+	padding-left: 75px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 75px;
+	margin: 20px;
+	border-radius: 25px
+
+}
+
+.showcase_picture {
+	height: 500px;
+	border-radius: 20px;
+}
+
+.combined_section {
+	display:flex;
+	margin: 0 auto;
+  	width: 66%;
+  	padding: 20px;
+	column-gap: 20px;
+}
+
+.showcase_option {
+	
+}
+
+.smaller_picture {
+	height: 300px;
+	width: 400px;
+	display: flex;
+	border-radius: 20px;
+}
+
+.gallery {
+        display: flex;           /* Enables flexbox */
+        flex-wrap: wrap;         /* Allows items to wrap to new lines if they don't fit */
+        justify-content: space-evenly; /* Distributes items evenly across the row */
+        gap: 0px;               /* Optional, adds space between the images */
+    }
+
+    .gallery a {
+        display: block;          /* Ensures the anchor tag is a block-level element */
+        text-align: center;      /* Centers the image inside the anchor */
+    }
+
+    .gallery img {
+        width: 460px;            /* Sets the width to 200px for all images */
+        height: 259px;
+		object-fit: cover;/* Sets the height to 200px for all images */
+        object-position: center;       /* Ensures images cover the specified dimensions, cropping if necessary */
+		border-radius: 25px;
+    }
+
+@media (max-width: 1920px){
+}
